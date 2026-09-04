@@ -60,5 +60,6 @@ export function matchRoute(path: string): { name: string; params: Record<string,
   if (segments[0] === 'rates') return { name: 'rates', params: {} };
   if (segments[0] === 'notifications') return { name: 'notifications', params: {} };
   if (segments[0] === 'settings') return { name: 'settings', params: {} };
+  if (segments[0] === 'landing') return { name: 'landing', params: {} };
   return { name: 'dashboard', params: {} };
 }
